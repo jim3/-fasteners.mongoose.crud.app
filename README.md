@@ -1,8 +1,8 @@
-# CRUD app for fasteners
+## CRUD app for fasteners
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-## Data Model
+### Data Model
 
 | Field       | Type   | Description             |
 | :---------- | :----- | :---------------------- |
@@ -15,7 +15,7 @@
 | head        | Array  | Array of head types     |
 | drive       | Array  | Array of drive types    |
 
-# API Endpoints
+### API Endpoints
 
 | Endpoint   | HTTP Method | Description   |
 | :--------- | :---------- | :------------ |
@@ -27,7 +27,7 @@
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-#### Possible document structure of the parts collection
+Possible document structure of the parts collection
 
 ```json
 {
