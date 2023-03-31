@@ -26,7 +26,7 @@
 | /parts     | DELETE      | Delete a part |
 
 
-- Possible document structure of the parts collection
+Document structure of the parts collection
 
 ```json
 {
