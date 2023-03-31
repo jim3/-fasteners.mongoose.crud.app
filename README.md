@@ -1,4 +1,4 @@
-# Fastener Inventory Tracker
+# CRUD app for fasteners
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
