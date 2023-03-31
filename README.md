@@ -25,9 +25,8 @@
 | /parts/:id | PUT         | Update a part |
 | /parts     | DELETE      | Delete a part |
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-Possible document structure of the parts collection
+- Possible document structure of the parts collection
 
 ```json
 {
