@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fastener Inventory App</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Fastener Inventory App</h1>
+            <form action="/api/fasteners" method="post">
+                <h3>Create a New Fastener</h3>
+                <input id="pname" type="text" name="partnumber" placeholder="partnumber" />
+                <input type="submit" value="Submit" />
+            </form>
+
+            <form id="fastener-form" method="post">
+                <h3>Add a fastener to the database</h3>
+                <p><code>/api/fasteners/:fastenerId</code></p>
+                <input id="pid" type="text" name="partnumber" placeholder="partnumber" />
+                <input id="pname" type="text" name="description" placeholder="name of part" />
+                <input id="qty" type="text" name="quantity" placeholder="Qty." />
+                <input id="cost" type="text" name="price" placeholder="price ($)" />
+                <input type="submit" value="Submit" />
+            </form>
+            <p><code>GET /api/users/:_id/logs?[from][&amp;to][&amp;limit]</code></p>
+        </div>
+        <script>
+            const exerciseForm = document.getElementById("fastener-form");
+            exerciseForm.addEventListener("submit", () => {
+                const userId = document.getElementById("uid").value;
+                exerciseForm.action = `/api/users/${fastenerId}/exercises`;
+                exerciseForm.submit();
+            });
+        </script>
+    </body>
+</html>
