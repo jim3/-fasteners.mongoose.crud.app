@@ -27,11 +27,11 @@
             <p><code>GET /api/users/:_id/logs?[from][&amp;to][&amp;limit]</code></p>
         </div>
         <script>
-            const exerciseForm = document.getElementById("fastener-form");
-            exerciseForm.addEventListener("submit", () => {
+            const fastenerForm = document.getElementById("fastener-form");
+            fastenerForm.addEventListener("submit", () => {
                 const userId = document.getElementById("uid").value;
-                exerciseForm.action = `/api/users/${fastenerId}/exercises`;
-                exerciseForm.submit();
+                fastenerForm.action = `/api/users/${fastenerId}/fasteners`;
+                fastenerForm.submit();
             });
         </script>
     </body>
