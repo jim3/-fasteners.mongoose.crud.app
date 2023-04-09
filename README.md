@@ -1,4 +1,4 @@
-## CRUD app for fasteners
+## A basic Node/Express/Mongoose Inventory App, it does basic CRUD operations. It could be used as a starter file/project for those totally unfamilar with this stack.
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
