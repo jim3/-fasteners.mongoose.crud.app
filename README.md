@@ -15,6 +15,8 @@
 | head        | Array  | Array of head types     |
 | drive       | Array  | Array of drive types    |
 
+---
+
 ### API Endpoints
 
 | Endpoint   | HTTP Method | Description   |
@@ -25,8 +27,9 @@
 | /parts/:id | PUT         | Update a part |
 | /parts     | DELETE      | Delete a part |
 
+---
 
-Document structure of the parts collection
+**Document structure of the parts collection**
 
 ```json
 {
